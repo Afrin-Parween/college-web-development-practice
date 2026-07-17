@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> STUDENT REGISTRATION FORM </title>
+<style>
+
+body{
+background:white;
+font-family:Arial;
+font-size:20px;
+}
+.container{
+width:700px;
+background:white;
+margin:50px auto;
+padding:30px;
+box-shadow: 0 2px 15px rgba(0,0,0,0.15);
+text-align:left;
+}
+
+.logo{
+width:120px;
+display:block;
+margin:auto;
+}
+h1{
+text-align:center;
+}
+li a{
+text-decoration:none;
+color:black;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+input[type=date],
+input[type=datetime-local],
+
+input[type=file],
+select{
+width:66%;
+padding:8px;
+margin-top:15px;
+box-sizing:border-box;
+}
+input[type=radio],
+input[type=checkbox]{
+width:auto;
+margin-right:5px;
+}
+
+.button{
+width:auto;
+background:blue;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+.reset{
+width:auto;
+padding:10px 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="logo">
+<img src="gne logo.png" width=120>
+</div>
+
+<nav>
+<ol>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">Departments</a>
+    <ul>
+        <li style="color:#0067B8;"><a href="#" style="color:#0067B8; font-size:22px;">CSE</a></li>
+        <li style="color:#0067B8;"><a href="#" style="color:#0067B8; font-size:22px;">IT</a></li>
+        <li style="color:#0067B8;"><a href="#" style="color:#0067B8; font-size:22px;">EE</a></li>
+        <li style="color:#0067B8;"><a href="#" style="color:#0067B8; font-size:22px;">ECE</a></li>
+        <li style="color:#0067B8;"><a href="#" style="color:#0067B8; font-size:22px;">CE</a></li>
+        <li style="color:#0067B8;"><a href="#" style="color:#0067B8; font-size:22px;">RAI</a></li>
+    </ul>
+</li>
+
+<li><a href="#">Administration</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">FAQ</a></li>
+
+</ol>
+</nav>
+<form>
+
+<h1 style="color:#0067B8;font size:40px;text-align:center;"> Student Registration form </h1>
+
+<label> Name: </label>
+<input type="text" placeholder="Enter your name" required><br><br>
+<label> URN: </label>
+<input type="number" placeholder="Enter your URN" required><br><br>
+<label> Email: </label>
+<input type="email" placeholder="Enter your email" required><br><br>
+<label> Section: </label>
+<input type="text" placeholder="Enter your Section" required><br><br>
+<label> Branch: </label>
+<input type="text" placeholder="Enter your Branch" required><br><br>
+<label> Phone number: </label>
+<input type="tel" placeholder="Enter your Phone number" required><br><br>
+
+<label> Gender: </label>
+<input type="radio" name="gender">Male<br>
+<label> Gender: </label>
+<input type="radio" name="gender">Female<br>
+<label> Gender: </label>
+<input type="radio" name="gender">Other<br><br>
+
+<label> Hobbies : </label><br>
+<input type = "checkbox" name="hobby" >Reading <br>
+<input type = "checkbox" name="hobby" >Dancing <br>
+<input type = "checkbox" name="hobby" >Music <br>
+<input type = "checkbox" name="hobby" >Sports <br><br>
+
+<label> Upload photo : </label> <br>
+<input type="file" style=" color:#0067B8; font-size:22px;" > <br><br>
+
+<input type="submit" value="Submit" style="background-color:#0067B8; color:white;"><br>
+<input type="reset" value="Reset" style="background-color:red; color:white;"><br><br>
+</form>
+</div>
+</body>
+</html>
