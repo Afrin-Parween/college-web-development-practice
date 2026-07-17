@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="forrmme.css">
+<title> Create account </title>
+<style>
+
+.logo{
+margin-bottom:20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+input[type=date],
+input[type=datetime-local],
+
+input[type=file],
+select{
+width:66%;
+padding:8px;
+margin-top:15px;
+box-sizing:border-box;
+}
+input[type=radio],
+input[type=checkbox]{
+width:auto;
+margin-right:5px;
+}
+
+.button{
+width:auto;
+background:blue;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+h1{
+color:black;
+text-align:center;
+}
+.reset{
+width:auto;
+padding:10px 20px;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+input[type=date],
+input[type=datetime-local],
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="container">
+<div class="logo">
+<img src="Microsoft.webp" width="120" style="display:block; margin:auto;">
+</div>
+
+<form>
+<h1> Create your Microsoft Account </h1>
+<label> Email : </label><br>
+<input type="email" placeholder="Enter your Email" required><br><br>
+
+<label> Name : </label><br>
+<input type="text" placeholder="Enter your name" required><br><br>
+
+<label> DOB : </label><br>
+<input type="date" placeholder="Enter your date of birth" required><br><br>
+
+<label> Password : </label><br>
+<input type="password" placeholder="Enter your password" required><br><br>
+
+<label> Age: </label><br>
+<input type="number" placeholder="Enter your age"><br><br>
+
+<label> Gender : </label><br>
+<input type="radio" name="gender" value="Male">Male<br>
+<input type="radio" name="gender" value="Female">Female<br>
+<input type="radio" name="gender" value="Other">Other<br><br>
+
+<label> Hobbies : </label><br>
+<input type = "checkbox" name="hobby" >Reading <br>
+<input type = "checkbox" name="hobby" >Dancing <br>
+<input type = "checkbox" name="hobby" >Music <br>
+<input type = "checkbox" name="hobby" >Sports <br><br>
+
+<label> Date & Time : </label> <br>
+<input type="datetime-local" placeholder="Enter date and time"><br><br>
+
+<label> Upload photo : </label> <br>
+<input type="file" > <br><br>
+
+<input type="submit" value="Submit" style="background-color:#0067B8; color:white;"><br><br>
+<input type="reset" value="Reset" style="background-color:red; color:white;"><br><br>
+
+</form>
+<a href="signin.html" style="text-decoration:none;"><-Back to Sign In</a><br>
+</div>
+</body>
+</html>
